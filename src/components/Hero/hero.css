@@ -1,0 +1,164 @@
+ .hero {
+     margin: 0 auto;
+     background: #444444;
+     flex-direction: column;
+     padding: 0 1rem;
+     width: 100%;
+ }
+
+ .profile_container {
+     flex-direction: column;
+     background-color: black;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     padding: 3rem;
+     gap: 3rem;
+     flex: 1;
+ }
+
+ .img_container {
+     width: 60%;
+ }
+
+ .hero_img {
+     display: block;
+     object-fit: cover;
+     width: 100%;
+ }
+
+ .profile_content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 60%;
+ }
+
+ .profile_name {
+     align-self: center;
+     color: yellow;
+     font-size: 1.5rem;
+     font-weight: 200;
+ }
+
+ .profile_role {
+     align-self: center;
+     font-size: 1.5rem;
+     font-weight: 300;
+ }
+
+ .profile_btn {
+     width: 100%;
+     background: white;
+     margin: 1rem 0;
+     padding: 0.75rem 2rem;
+     border: none;
+ }
+
+ .about_container {
+     display: flex;
+     flex: 1;
+     flex-direction: column;
+     justify-content: start;
+     align-items: center;
+     gap: 4rem;
+
+ }
+
+ .about_content {}
+
+ .about_link {
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center;
+     align-items: center; */
+ }
+
+ .about_btn {
+     width: 150px;
+     background: white;
+     margin: 1rem 0;
+     padding: 0.75rem 2rem;
+     border: none;
+ }
+
+
+ @media screen and (min-width: 700px) {
+     .hero {
+         flex-direction: row;
+         padding: 0;
+     }
+
+     .about_container {
+         padding: 2rem;
+         align-items: unset;
+     }
+
+     .about_link {
+         flex-direction: row;
+         justify-content: space-between;
+     }
+
+     .about_btn {
+         width: 150px;
+         background: white;
+         margin: 1rem 0;
+         padding: 0.75rem 2rem;
+         border: none;
+     }
+ }
+
+
+
+ /*
+.hero_content {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero_start {
+    font-size: 1.75rem;
+    font-weight: 200;
+
+}
+
+.hero_name {
+    color: yellow;
+}
+
+.hero_para {
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.btn {
+    
+}
+
+
+@media screen and (max-width: 840px) {
+    .hero_img {
+        right: -10vh;
+    }
+
+    .hero_content {
+        font-size: 7vw;
+    }
+
+    .hero_start {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hero_img {
+        right: -20vh;
+    }
+} */
