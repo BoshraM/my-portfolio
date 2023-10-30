@@ -5,6 +5,14 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 
 export const Hero = () => {
+    const handleCVButtonClick = () => {
+        window.open(
+            "https://drive.google.com/file/d/1_qVNmCOOTSXd_Zidwh669QMm780MW4Vj/view?usp=drive_link",
+            '_blank',
+            'noopener noreferrer'
+        );
+    };
+
     return (
         <section className="hero">
             <div className="profile_container flex">
@@ -39,7 +47,10 @@ export const Hero = () => {
                     <p>I'm a Full-stack developer based in the UK, where I live with my family and energetic son. With a lifelong love for games, puzzles, and books, along with a deep passion for nature, I'm ready to make a tech-powered impact in the world of software development.</p>
                 </div>
                 <div className="about_link">
-                    <button className="about_btn">Resume</button>
+
+                    <button className="about_btn" onClick={handleCVButtonClick}>Resume</button>
+
+
                     <button className="about_btn">Projects</button>
 
                 </div>
