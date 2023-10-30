@@ -1,7 +1,7 @@
  .hero {
      display: flex;
      margin: 0 auto;
-     background: black;
+     background: #413b3b;
      flex-direction: column;
      padding: 0 1rem;
      width: 100%;
