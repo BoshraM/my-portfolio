@@ -14,9 +14,10 @@ body {
 }
 
 .icon {
-    font-size: 2rem;
+    font-size: 3rem;
     cursor: pointer;
     color: white;
+    margin: 0 1rem;
 }
 
 .flex {
