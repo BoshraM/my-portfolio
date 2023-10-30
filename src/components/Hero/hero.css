@@ -12,13 +12,13 @@
      justify-content: center;
      align-items: center;
      width: 100%;
-     padding: 3rem;
-     gap: 3rem;
+     padding: 0 3rem;
+     gap: 2rem;
      flex: 1;
  }
 
  .img_container {
-     width: 60%;
+     width: 40%;
  }
 
  .hero_img {
@@ -31,7 +31,7 @@
      display: flex;
      flex-direction: column;
      justify-content: center;
-     width: 60%;
+     width: 40%;
  }
 
  .profile_name {
@@ -51,15 +51,17 @@
      width: 100%;
      background: white;
      margin: 1rem 0;
-     padding: 0.75rem 2rem;
+     padding: 0 1.5rem;
      border: none;
+     font-size: 1.5rem;
+     font-weight: 500;
  }
 
  .about_container {
      display: flex;
      flex: 1;
      flex-direction: column;
-     justify-content: start;
+     justify-content: flex-start;
      align-items: center;
      gap: 4rem;
 
@@ -78,8 +80,11 @@
      width: 150px;
      background: white;
      margin: 1rem 0;
-     padding: 0.75rem 2rem;
+     padding: 0 1.5rem;
      border: none;
+     font-size: 1.5rem;
+     font-weight: 500;
+
  }
 
 
