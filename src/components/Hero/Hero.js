@@ -1,12 +1,12 @@
-import "./hero.css"
-import picture from "../../assests/PHOTO-2023-10-28-14-44-23.jpg"
+import "./hero.css";
+import picture from "../../assests/PHOTO-2023-10-28-14-44-23.jpg";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 
 export const Hero = () => {
     return (
-        <section className="hero flex">
+        <section className="hero">
             <div className="profile_container flex">
                 <div className="img_container">
                     <img src={picture} alt="" className="hero_img" />
