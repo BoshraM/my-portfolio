@@ -7,7 +7,7 @@ export const Contact = () => {
             <h1>Get In Touch With Me</h1>
             <div className="contact-form-container">
                 <div className="contact-form">
-                    <form action="http://localhost:3001/submit-form" method="POST" className='form'>
+                    <form action="https://portfolio-server-4x7o.onrender.com/submit-form" method="POST" className='form' target='blank'>
                         <div className="form-control">
                             <label htmlFor="name">Name</label>
                             <input
