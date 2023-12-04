@@ -3,8 +3,8 @@
      margin: 0 auto;
      background: black;
      flex-direction: column;
-     padding: 0 1rem;
      width: 100%;
+
  }
 
  .profile_container {
@@ -16,6 +16,7 @@
      padding: 0 3rem;
      gap: 2rem;
      flex: 1;
+     box-shadow: 3px 4px 4px #444444;
  }
 
  .img_container {
@@ -56,6 +57,7 @@
      border: none;
      font-size: 1.5rem;
      font-weight: 500;
+     box-shadow: 10px 3px 3px #444444;
  }
 
  .about_container {
@@ -95,9 +97,8 @@
      border: none;
      font-size: 1.5rem;
      font-weight: 500;
-
+     box-shadow: 10px 3px 3px #444444;
  }
-
 
  @media screen and (min-width: 700px) {
      .hero {
@@ -111,7 +112,7 @@
      }
 
      h1 {
-         font-size: 3rem;
+         font-size: 2rem;
      }
 
      .about_link {
