@@ -3,7 +3,14 @@ import "./projects.css";
 import { Project } from "./Project";
 
 
-const projectsData = [
+const projectsData =
+    [{
+        img: require("../assests/cyf-progress-tracker.png"),
+        title: "ApplySmart",
+        liveLink: "https://applysmartc.onrender.com/",
+        githubLink: "https://github.com/Bahare09/ApplySmart",
+        date: "In Progress"
+    },
     {
         img: require("../assests/cyf-progress-tracker.png"),
         title: "CYF PROGRESS Tracker",
@@ -46,7 +53,7 @@ const projectsData = [
         githubLink: "https://github.com/BoshraM/cyf-hotel-react",
         date: "APR 2023"
     },
-];
+    ];
 export const Projects = () => {
     return (
         <div className="projects">
