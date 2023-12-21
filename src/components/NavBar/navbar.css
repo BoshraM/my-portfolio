@@ -1,0 +1,39 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+}
+
+.desktopListItem {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.desktopListItem:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+.desktopMenuBtn {
+    background: white;
+    color: black;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+}

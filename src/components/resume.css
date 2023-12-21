@@ -1,0 +1,47 @@
+.resume {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin: 5px 0;
+}

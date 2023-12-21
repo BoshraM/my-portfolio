@@ -5,7 +5,7 @@ import { Project } from "./Project";
 
 const projectsData =
     [{
-        img: require("../assests/cyf-progress-tracker.png"),
+        img: require("../assests/ApplySmart.png"),
         title: "ApplySmart",
         liveLink: "https://applysmartc.onrender.com/",
         githubLink: "https://github.com/Bahare09/ApplySmart",

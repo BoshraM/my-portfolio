@@ -1,11 +1,12 @@
 .projects {
     display: grid;
-    padding: 30px;
-    gap: 30px;
+    padding: 50px 30px;
+    gap: 50px;
 }
 
 .project_title {
     text-align: center;
+    box-shadow: 3px 4px 4px #444444;
 }
 
 .projects_container {
