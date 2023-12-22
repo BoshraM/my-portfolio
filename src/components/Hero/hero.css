@@ -28,6 +28,7 @@
      display: block;
      object-fit: cover;
      width: 100%;
+     box-shadow: 3px 4px 4px #444444;
  }
 
  .profile_content {
