@@ -23,7 +23,7 @@ export const Hero = () => {
                     <p className="profile_name">Boshra Mahmoudi</p>
 
                     <p className="profile_role">Software Developer</p>
-                    <button className="profile_btn"><a href="mailto:gbBoshra@gmail.com" target="_blank" aria-label="icons to navigate to email" rel="noreferrer">Hire Me</a> </button>
+                    <button className="profile_btn"><a href="mailto:gbBoshra@gmail.com" target="_blank" aria-label="Hire me" rel="noreferrer">Hire Me</a> </button>
                 </div>
                 <div className="hero_socials flex">
                     <a href="https://www.linkedin.com/in/boshra-mahmoudi/" target="blank" aria-label="icons to navigate to linkedin">

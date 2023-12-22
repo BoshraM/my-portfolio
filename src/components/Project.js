@@ -7,7 +7,7 @@ import { AiFillGithub } from "react-icons/ai";
 export const Project = ({ img, title, liveLink, githubLink, date }) => (
     <div className="project_container">
         <img src={img} alt={title} className="project_img" />
-        <a href={liveLink} target="_blank" className="project_link" rel="noreferrer" aria-label="icons to navigate to project demo">
+        <a href={liveLink} target="_blank" className="project_link" rel="noreferrer" aria-label={title}>
             {title}
         </a>
         <p>{date}</p>
