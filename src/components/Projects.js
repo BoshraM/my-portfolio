@@ -43,7 +43,7 @@ const projectsData =
         img: require("../assests/amazonshop.png"),
         title: "Amazon-Clone",
         liveLink: "https://london9-amazon-clone-50-react-project.netlify.app/",
-        githubLink: "https://github.com/ShayanMahnam/team-amazon-clone",
+        githubLink: "https://github.com/BoshraM/team-amazon-clone",
         date: "APR 2023"
     },
     {
