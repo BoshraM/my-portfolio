@@ -4,7 +4,8 @@
      background: black;
      flex-direction: column;
      width: 100%;
-
+     padding: 20px;
+     box-shadow: 3px 4px 4px #444444;
  }
 
  .profile_container {
@@ -13,7 +14,7 @@
      justify-content: center;
      align-items: center;
      width: 100%;
-     padding: 0 3rem;
+     padding: 0 3rem 1rem 0;
      gap: 2rem;
      flex: 1;
      box-shadow: 3px 4px 4px #444444;
@@ -103,7 +104,6 @@
  @media screen and (min-width: 700px) {
      .hero {
          flex-direction: row;
-         padding: 0;
      }
 
      .about_container {
