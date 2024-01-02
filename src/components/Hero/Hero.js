@@ -7,7 +7,7 @@ import { AiOutlineMail } from "react-icons/ai";
 export const Hero = () => {
     const handleCVButtonClick = () => {
         window.open(
-            "https://drive.google.com/file/d/1_qVNmCOOTSXd_Zidwh669QMm780MW4Vj/view?usp=drive_link",
+            "https://docs.google.com/document/d/19fgG0V60k1R2dJR69RgWQkQawbs04DsSmGX2vDbMYTI/",
             '_blank',
             'noopener noreferrer'
         );
