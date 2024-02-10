@@ -49,7 +49,7 @@ const projectsData =
     {
         img: require("../assests/hotel-react.png"),
         title: "CYF-Hotel-React",
-        liveLink: "https://cyf-boshram-hotel-react.netlify.app/https://cyf-boshram-hotel-react.netlify.app/",
+        liveLink: "https://cyf-boshram-hotel-react.netlify.app/",
         githubLink: "https://github.com/BoshraM/cyf-hotel-react",
         date: "APR 2023"
     },
