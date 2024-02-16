@@ -49,7 +49,7 @@ export const Hero = () => {
                 <div className="about_link">
 
                     <button className="about_btn" onClick={handleCVButtonClick}>Resume</button>
-                    <button className="about_btn">Projects</button>
+                    {/* <button className="about_btn">Projects</button> */}
 
                 </div>
 
