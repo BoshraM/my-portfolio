@@ -15,16 +15,22 @@ export const Hero = () => {
 
     return (
         <section className="hero">
-            <div className="profile_container flex">
+
                 <div className="img_container">
                     <img src={picture} alt="" className="hero_img" />
                 </div>
+            <div className="description">
+               <h1>Hi, I'm Boshra Mahmoudi</h1>  <p>A Full-stack developer who enjoys soving challenging problems in tech. I have lifelong love for games, puzzles and books.</p>
+                <button className="profile_btn"><a href="mailto:gbBoshra@gmail.com" target="_blank" aria-label="Let's Talk" rel="noreferrer">Hire Me</a> </button>
+                
+            </div>
+           
+                {/* 
                 <div className="profile_content">
                     <p className="profile_name">Boshra Mahmoudi</p>
 
                     <p className="profile_role">Software Developer</p>
-                    <button className="profile_btn"><a href="mailto:gbBoshra@gmail.com" target="_blank" aria-label="Hire me" rel="noreferrer">Hire Me</a> </button>
-                </div>
+                    </div>
                 <div className="hero_socials flex">
                     <a href="https://www.linkedin.com/in/boshra-mahmoudi/" target="blank" aria-label="icons to navigate to linkedin">
                         <AiFillLinkedin className='icon' />
@@ -36,24 +42,18 @@ export const Hero = () => {
                         <AiOutlineMail className='icon' />
                     </a>
 
-
-
-                </div>
-
             </div>
-            <div className="about_container">
                 <div className="about_content">
                     <h1>About Me</h1>
-                    <p>I'm a Full-stack developer based in the UK, where I live with my family and energetic son. With a lifelong love for games, puzzles, and books, along with a deep passion for nature, I'm ready to make a tech-powered impact in the world of software development.</p>
+                   
                 </div>
                 <div className="about_link">
 
                     <button className="about_btn" onClick={handleCVButtonClick}>Resume</button>
-                    {/* <button className="about_btn">Projects</button> */}
+                    <button className="about_btn">Projects</button> */}
 
-                </div>
+                {/* </div> */}
 
-            </div>
 
         </section >
     )
