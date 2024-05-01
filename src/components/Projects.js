@@ -9,14 +9,16 @@ const projectsData =
         title: "ApplySmart",
         liveLink: "https://applysmartc.onrender.com/",
         githubLink: "https://github.com/Bahare09/ApplySmart",
-        date: "In Progress"
+        date: "In Progress",
+        desc: "hsahkhajdsladkjaldalkdhljkahdlahdlahdlad",
     },
     {
         img: require("../assests/cyf-progress-tracker.png"),
         title: "CYF PROGRESS Tracker",
         liveLink: "https://starter-kit-j8jj.onrender.com/",
         githubLink: "https://github.com/BoshraM/ldn9-Ctrl-Shift-Learn",
-        date: "JUL 2023"
+        date: "JUL 2023",
+        desc: "hsahkhajdsladkjaldalkdhljkahdlahdlahdlad",
     },
     {
         img: require("../assests/full-stack.png"),
@@ -57,7 +59,7 @@ const projectsData =
 export const Projects = () => {
     return (
         <div className="projects">
-            <h1 className="project_title">PROJECTS</h1>
+            <h2 className="project_title">PROJECTS</h2>
             <div className="projects_container">
 
                 {projectsData.map((project, index) => (
