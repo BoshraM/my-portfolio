@@ -1,8 +1,5 @@
 import "./hero.css";
 import picture from "../../assests/profile.jpeg";
-import { AiFillLinkedin } from "react-icons/ai";
-import { AiFillGithub } from "react-icons/ai";
-import { AiOutlineMail } from "react-icons/ai";
 
 export const Hero = () => {
     const handleCVButtonClick = () => {
