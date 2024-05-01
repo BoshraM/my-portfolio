@@ -1,5 +1,5 @@
 import "./hero.css";
-import picture from "../../assests/PHOTO-2023-10-28-14-44-23.jpg";
+import picture from "../../assests/profile.jpeg";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
@@ -21,7 +21,7 @@ export const Hero = () => {
                 </div>
             <div className="description">
                <h1>Hi, I'm Boshra Mahmoudi</h1>  <p>A Full-stack developer who enjoys soving challenging problems in tech. I have lifelong love for games, puzzles and books.</p>
-                <button className="profile_btn"><a href="mailto:gbBoshra@gmail.com" target="_blank" aria-label="Let's Talk" rel="noreferrer">Hire Me</a> </button>
+                <button className="profile_btn"><a href="mailto:gbBoshra@gmail.com" target="_blank" aria-label="Let's Talk" rel="noreferrer" className="profile_link">Let's Talk</a> </button>
                 
             </div>
            
