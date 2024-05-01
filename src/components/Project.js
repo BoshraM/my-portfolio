@@ -1,8 +1,4 @@
 import "./projects.css";
-import { AiFillGithub } from "react-icons/ai";
-
-// Define an array of project data
-
 
 export const Project = ({ img, title, liveLink, githubLink, date,desc }) => (
     <div className="project_container">
@@ -11,10 +7,9 @@ export const Project = ({ img, title, liveLink, githubLink, date,desc }) => (
         </div>
      
      <h3>
-          {/* <a href={liveLink} target="_blank" className="project_link" rel="noreferrer" aria-label={title}> */}
+        <a href={liveLink} target="_blank" className="project_link" rel="noreferrer" aria-label={title}>
             {title}
-        {/* </a> */}
-
+        </a>
      </h3>
       
         <p className="p_date">{date}</p>
